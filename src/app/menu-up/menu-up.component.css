@@ -1,6 +1,13 @@
 .fa-pinterest{
-  color:#bd081c;  
+  color:#bd081c;    
 }
 .btnIconPin{
   border-radius: 45px;
+  border:none;  
+}
+img{
+  height: 28px;
+  width: 28px;
+  border-radius: 45px;
+  color:#bd081c;
 }
