@@ -1,14 +1,18 @@
-<section class="container-fluid">
-<div>
-<button class="btnIconPin"><img src="../../../assets/img/kisspng-logo-clip-art-pinterest-computer-icons-image-pinterest-logo-svg-vector-amp-png-transparent-5b62da9e5ff952.913267.jpg"></button>
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
-  </div>
-  <input type="text" class="form" placeholder="Buscar" aria-label="Username" aria-describedby="basic-addon1">
-</div>
-  <button>Inicio</button>
-  <button>Siguiendo</button>
-  <button><i class="fas fa-user-circle"></i>Perfil</button>
-</div>
-</section>
+<nav class="navbar sticky-top bg-custom">
+  <a href="#">
+    <img class="icon-pinterest" src="../../../assets/img/kisspng-logo-clip-art-pinterest-computer-icons-image-pinterest-logo-svg-vector-amp-png-transparent-5b62da9e5ff952.913267.jpg" width="30" height="30" alt="icon-pinterest">
+  </a>
+  <form href="javascript:void(0)" class="form-inline search-header my-2 my-lg-0 mx-3">
+    <span id="search-btn" onclick="window.controller.getSearchInput()" class="search-icon-header px-3">
+      <i class="fas fa-search"></i>
+    </span>
+    <input id="search-input" class="form-control searchBox mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  </form>
+  <a class="btn-header px-3" id="home-btn" href="#">Home</a>
+  <a class="btn-header px-3" href="#">Following</a>
+  <a class="btn-header px-3" href="#">Explore</a>
+  <a class="btn-header px-3" href="#"><i class="far fa-user-circle icon-header pr-2"></i>Mandy</a>
+  <a class="btn-header px-3" href="#"><i class="fas fa-comment-dots icon-header"></i></a>
+  <a class="btn-header px-3" href="#"><i class="fas fa-bell icon-header"></i></a>
+  <a class="btn-header px-3" href="#"><i class="fas fa-ellipsis-h icon-header"></i></a>
+</nav>
