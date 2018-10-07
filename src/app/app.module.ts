@@ -6,6 +6,10 @@ import { MenuTagsComponent } from './menu-tags/menu-tags.component';
 import { WallComponent } from './wall/wall.component';
 import { SubMenuComponent } from './sub-menu/sub-menu.component';
 import { Routes, RouterModule } from "@angular/router";
+import { ImagesComponent } from './images/images.component';
+import { HttpModule } from '@angular/http';
+import { ImageService } from './shared/image.service';
+import { FormsModule } from '@angular/forms';
 
 const appRoutes: Routes = [
   {
@@ -19,13 +23,17 @@ const appRoutes: Routes = [
     MenuUpComponent,    
     MenuTagsComponent,
     WallComponent,
-    SubMenuComponent
+    SubMenuComponent,
+    ImagesComponent,
+    
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
+    HttpModule,
+    FormsModule,
   ],
-  providers: [],
+  providers: [ImageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
