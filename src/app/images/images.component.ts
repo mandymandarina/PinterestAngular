@@ -11,6 +11,7 @@ export class ImagesComponent implements OnInit {
 
 images: any[];
 imagesFound: boolean = false;
+searching : boolean = false;
    handleSuccess(data){
     this.imagesFound = true;
     this.images = data.hits;
@@ -22,10 +23,11 @@ imagesFound: boolean = false;
   constructor(private _imageService : ImageService) { }
 
   searchImages(query: string){
+    this.searching = true;
     return this._imageService.getImage(query).subscribe(
       data => this.handleSuccess(data),
       error => this.handleError(error),
-      () => console.log("Request complete!")
+      () => this.searching = false,
     )
   }
 
