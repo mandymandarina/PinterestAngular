@@ -105,10 +105,12 @@ border-radius: 5%;
 }
 .imgsearch:hover{
   color: #8e8e8ee0;
+  opacity: 0.4;
 }
 .card{
 display: block;
 width: 200px;
+float: left;
 }
 .card:hover{
   background-color: #8e8e8e57; 
@@ -134,7 +136,7 @@ width: 200px;
   border:none; 
 }
 .card:hover> #savered{
-  display:block;
+  display:block;  
 }
 .puntos{
 border-radius: 50%;
