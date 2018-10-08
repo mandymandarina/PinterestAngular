@@ -111,7 +111,20 @@ display: block;
 width: 200px;
 }
 .card:hover{
-  background-color: #8e8e8e57;
+  background-color: #8e8e8e57; 
+}
+#boton{
+  display: none;
+  background-color: #efefef;
+  border-radius: 7%;
+  border:none;
+  color:#6c6c6c;
+  font-weight: 500;
+}
+
+.card:hover > #boton{
+  display: block;
+   
 }
 .puntos{
 border-radius: 50%;
