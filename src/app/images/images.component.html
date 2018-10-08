@@ -16,7 +16,12 @@
     <a class="btn-header px-3 icona" href="#"><i class="fas fa-bell icon-header"></i></a>
     <a class="btn-header px-3 icona" href="#"><i class="fas fa-ellipsis-h icon-header"></i></a>
   </nav>
-  
+  <div class="diseñoTags">
+    <div *ngFor="let image of images">
+        <button class="tags">{{image.tags}}</button>
+  </div>
+</div>
+
   <p *ngIf="searching">Fetching data...</p>
    
   <div *ngFor="let image of images" class="card" style="width: 18rem;">
@@ -26,7 +31,7 @@
     <p>Comments: {{image.comments}}</p>
     <p>Likes: {{image.likes}}</p>--> 
     <button id="savered"><i class="fas fa-thumbtack"></i> Save</button>   
-        <button id="boton"><i class="fas fa-arrow-up"></i> {{image.largeImageURL}}</button>
+        <a href="{{image.pageURL}}"id="boton"><i class="fas fa-arrow-up"></i> {{image.pageURL}}</a>
         <button class="puntos"><i class="fas fa-ellipsis-h icon-header"></i></button> 
      
   </div>  
