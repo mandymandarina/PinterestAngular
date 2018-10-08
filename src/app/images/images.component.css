@@ -120,11 +120,21 @@ width: 200px;
   border:none;
   color:#6c6c6c;
   font-weight: 500;
+  width: 255px;
 }
-
 .card:hover > #boton{
-  display: block;
-   
+  display: block;   
+}
+#savered{
+  display: none;
+  background-color:#ad081b;
+  color:white;
+  border-radius: 7%;
+  font-weight: 600;
+  border:none; 
+}
+.card:hover> #savered{
+  display:block;
 }
 .puntos{
 border-radius: 50%;
