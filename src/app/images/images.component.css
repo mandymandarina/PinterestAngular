@@ -1,3 +1,11 @@
+.icon-pinterest {
+  height: 46px;
+  width: 46px;
+  padding: 8px;
+  color:#bd081c;
+  font-size: 30px;
+}
+
 .btnIconPin{
   border-radius: 45px;
   background-color: white;
