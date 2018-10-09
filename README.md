@@ -9,11 +9,11 @@ En esta paginas web se replico la aplicacion llamada "Pinterest" para version de
 * Se cargan 20 imagenes primero
 * Al hacer click en en el boton del link de la imgen se abre una pestañan nueva en la cual se muestra la imagen de donde salió originalmente.
 
-#### Como se hizo  :hammer:
+### Como se hizo  :hammer:
 
 Se utilizó una API de imagenes llamada PIXABAY, de donde se sacaron las imagenes con la que funciona esta aplicación. Se usó Bootstrap para los estilos de la replica de Pinterest.
 
-#### Deploy
+### Deploy
 
 
 

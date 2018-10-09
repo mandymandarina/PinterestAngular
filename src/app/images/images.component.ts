@@ -2,16 +2,20 @@ import { Component, OnInit } from '@angular/core';
 import { ImageService } from '../shared/image.service';
 
 
+
 @Component({
   selector: 'app-images',
   templateUrl: './images.component.html',
   styleUrls: ['./images.component.css']
 })
+
+
 export class ImagesComponent implements OnInit {
 
 images: any[];
 imagesFound: boolean = false;
 searching : boolean = false;
+searchQuery: any;
    handleSuccess(data){
     this.imagesFound = true;
     this.images = data.hits;
@@ -20,7 +24,7 @@ searching : boolean = false;
    handleError(error){
     console.log(error);
   }
-  constructor(private _imageService : ImageService) { }
+  constructor(public _imageService : ImageService) { }
 
   searchImages(query: string){
     this.searching = true;
