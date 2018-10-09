@@ -15,5 +15,7 @@ Se utilizó una API de imagenes llamada PIXABAY, de donde se sacaron las imagene
 
 ### Deploy
 
+Se puede ver la aplicación dando click en el siguiente link que esta [aquí](https://mandymandarina.github.io/PinterestAngular/)
+
 
 
