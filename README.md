@@ -1,5 +1,8 @@
 # Pinterest Angular
 
+![pinterestangular](https://user-images.githubusercontent.com/39128913/47228702-3dccf000-d39c-11e8-9319-b0ea4c416152.png)
+
+
 ### Lo que se hizó  :smiley:
 
 En esta paginas web se replico la aplicacion llamada "Pinterest" para version desktop, con sus funciones principales como:
